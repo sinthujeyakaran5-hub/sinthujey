@@ -126,44 +126,44 @@ hgfedcba
 print(s[::-2])
 hfdb
 #reverses and skips every alternate letter
->>> print(s[6:1:-1])
+print(s[6:1:-1])
 gfedc
->>> #starts at index 6 ('g'), goes down to exclusive stop index 1 ('b')
->>> 
->>> 
->>> s="a1b2c3d4e5"
->>> print(s[1::3])
+#starts at index 6 ('g'), goes down to exclusive stop index 1 ('b')
+ 
+ 
+s="a1b2c3d4e5"
+print(s[1::3])
 1c4
->>> #extract every 3rd character from a string starting from index 1
->>> 
->>> 
->>> s="Python"
->>> print(s[5:0:-1])
+#extract every 3rd character from a string starting from index 1
+ 
+ 
+s="Python"
+print(s[5:0:-1])
 nohty
->>> print(s[5::-1])
+print(s[5::-1])
 nohtyP
->>> print(s[:0:-1])
+print(s[:0:-1])
 nohty
->>> 
->>> 
->>> #start and stop values that exceed string boundaries with a negative step
->>> 
->>> s="hello"
->>> print(s[100::-1])
+ 
+ 
+#start and stop values that exceed string boundaries with a negative step
+ 
+s="hello"
+print(s[100::-1])
 olleh
->>> print(s[::-100])
+print(s[::-100])
 o
->>> 
->>> 
->>> #INTERMEDIATE SLICING CHALLENGES
->>> s="abcdefghij"
->>> print(s[2:8])
+ 
+ 
+#INTERMEDIATE SLICING CHALLENGES
+s="abcdefghij"
+print(s[2:8])
 cdefgh
->>> 
->>> 
->>> #replace a portion of a string using slicing
->>> s="Hello World"
->>> ss=s[:6]+"Python"
->>> print(ss)
+ 
+ 
+#replace a portion of a string using slicing
+s="Hello World"
+ss=s[:6]+"Python"
+print(ss)
 Hello Python
->>> 
+ 
