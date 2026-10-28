@@ -1,8 +1,5 @@
 ## single inheritance
 
-from pyclbr import Class
-
-
 class Dad:
     def house(self):
         print("pink")
